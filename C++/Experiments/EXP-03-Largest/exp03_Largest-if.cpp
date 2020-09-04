@@ -56,6 +56,4 @@ int main(){
 	
 	cout<<"Largest : "<<largest<<endl;
 	return 0;
-	
-	
 }

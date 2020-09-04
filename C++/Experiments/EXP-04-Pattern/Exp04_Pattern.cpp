@@ -15,22 +15,30 @@ void Banner(string Heading){
 	Border(33);
 }
 
-void printPattern(int n){
-	for(int i=1;i<=n;i++){
-		for(int j=1;j<=n-i;j++){
-			cout<<" "<<flush;
+class Pattern{
+public:
+	int n;
+	void printPattern(){
+		
+		for(int i=1;i<=this->n;i++){
+			for(int j=1;j<=this->n-i;j++){
+				cout<<" "<<flush;
+			}
+			for(int j=1;j<=i;j++){
+				cout<<"*"<<flush;
+			}
+			cout<<endl;
 		}
-		for(int j=1;j<=i;j++){
-			cout<<"*"<<flush;
-		}
-		cout<<endl;
 	}
-}
+};
+
 int main(){
 	Banner("Pattern");
+	//Declaring Class Variable
+	Pattern p1;
+	//Taking Number of lines to print as Input
 	cout<<"Enter the number of lines : "<<flush;
-	int n;
-	cin>>n;
-	printPattern(n);
+	cin>>p1.n;
+	p1.printPattern();
 	return 0;
 }
