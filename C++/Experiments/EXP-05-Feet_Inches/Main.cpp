@@ -32,18 +32,20 @@ int main(){
 	cin>>d1.feet;
 	cout<<"Inches : "<<endl;
 	cin>>d1.inc;
+	cout<<endl;
 	
 	//For d2
-	cout<<"For Distance 1:"<<endl;
+	cout<<"For Distance 2:"<<endl;
 	cout<<"Feet : "<<endl;
 	cin>>d2.feet;
 	cout<<"Inches : "<<endl;
 	cin>>d2.inc;
+	cout<<endl;
 	
 	sum.feet = d1.feet + d2.feet;
 	sum.inc =  d1.inc + d2.inc;
 	
-	if(sum.inc>12){
+	while(sum.inc>12){
 		sum.inc-=12;
 		sum.feet++;
 	}	
