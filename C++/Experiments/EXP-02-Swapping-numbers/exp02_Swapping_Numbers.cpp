@@ -6,11 +6,11 @@ using std::cin;
 using std::endl;
 
 int main(){
-	//Printing Banner
+/*	//Printing Banner
 	cout<<"=================================="<<endl;
 	cout<<"Swap 2 numbers"<<endl;
 	cout<<"=================================="<<endl;
-
+*/
 	//Taking n1 as Input
 	cout<<"Enter the value of n1: "<<endl;
 	int n1;

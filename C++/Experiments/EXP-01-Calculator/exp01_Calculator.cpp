@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(){
-	//Printing Banner
+/*	//Printing Banner
 	cout<<"=================================="<<endl;
 	cout<<"2 Number Calculator"<<endl;
 	cout<<"=================================="<<endl;
-	
+*/	
 	//Taking inputs
 	cout<<"Enter two numbers : "<<endl;
 	int n1,n2;

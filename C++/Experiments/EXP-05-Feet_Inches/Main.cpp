@@ -1,14 +1,14 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+/*
 void Border(int n){
 	for(int i=0;i<=n;i++){
 		cout<<"="<<flush;
 	}
 	cout<<endl;
 }
-
+*/
 void Banner(string Heading){
 	Border(33);
 	cout<<Heading<<endl;
@@ -21,7 +21,7 @@ struct Distance{
 };
 
 int main(){
-	Banner("Sum of Distances");
+//	Banner("Sum of Distances");
 	
 	Distance d1,d2,sum;
 	
